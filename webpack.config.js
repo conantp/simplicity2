@@ -16,7 +16,8 @@ module.exports = {
       'babel-polyfill',
       path.join(__dirname, 'src', 'index.js'),
       path.join(__dirname, 'public', 'manifest.json'),
-      path.join(__dirname, 'public', 'favicon.ico')
+      path.join(__dirname, 'public', 'favicon.ico'),
+      path.join(__dirname, 'public', '_redirects'),
     ],
   },
   output: {
@@ -46,6 +47,10 @@ module.exports = {
       {
         test: /manifest.json/,
         loader: 'file-loader?name=[name].[ext]', // <-- retain original file name
+      },
+      {
+        test: /_redirects/,
+        loader: 'file-loader?name=[name]', // <-- retain original file name
       },
       {
         test: /\.scss$/,

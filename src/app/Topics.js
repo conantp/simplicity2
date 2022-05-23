@@ -40,10 +40,10 @@ const Topics = props => (
 
 Topics.defaultProps = {
   topics: [
-    // {
-    //   name: 'BUDGET',
-    //   path: 'budget',
-    // },
+    {
+      name: 'BUDGET',
+      path: 'budget',
+    },
     {
       name: 'CAPITAL_PROJECTS',
       path: 'capital_projects',

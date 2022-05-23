@@ -318,10 +318,18 @@ a.inText{
 /*JESSE MICHEL 4.6.2018 ALL NAVBAR STYLES*/
 .navbar{
   font-size: 2rem;
-  background: #f6fcff;
-  border-bottom: 1px solid darken(#f6fcff, 10%);
+  background: #256c9b;
+  border-bottom: 1px solid darken(#256c9b, 10%);
   a{
   	font-size: 1rem;
+  }
+
+  *{
+  	  color: white !important;
+  }
+
+  .navbar-toggle{
+  	background: white;
   }
 }
 
@@ -348,12 +356,12 @@ a.inText{
 	display: flex;
 	align-items: center;
 	img{
-		max-width: 80px;
+		max-width: 160px;
 		max-height: 80px;
-		margin-right: .5rem;
+		margin-right: 1.5rem;
 	}
 	h1{
-		font-size: 2rem;
+		font-size: 1.5rem;
 		margin-bottom: .25rem;
 		margin-top: 0;
 	}

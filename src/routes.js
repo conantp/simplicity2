@@ -8,37 +8,37 @@ import { client } from './gqlClient';
 // Routed components
 import App from './app/App';
 import Home from './app/Home';
-import MySimpliCity from './app/MySimpliCity';
-import Search from './app/search/Search';
-// Locations
-import Locations from './app/Locations';
-import Address from './app/address/Address';
-import AddressList from './app/address/AddressList';
-import Property from './app/property/Property';
-import Properties from './app/property/Properties';
-import Street from './app/street/Street';
-import Neighborhood from './app/neighborhood/Neighborhood';
-import Owner from './app/owner/Owner';
-import GooglePlaceResults from './app/search/searchResults/GooglePlaceResults';
-// Topics
-import Topics from './app/Topics';
-//Development endpoints
-import DevelopmentSummary from './app/development/DevelopmentSummary';
-import DevelopmentDetail from './app/development/DevelopmentDetail';
-import DevelopmentSLADashboard from './app/development/sla_dashboard/SLADashboard';
-import DevelopmentDashIndex from './app/development/DevelopmentDashIndex';
-// import TrcTimeline from './app/development/trc/TrcTimeline';
-import MajorDevelopmentDashboard from './app/development/trc/MajorDevelopmentDashboard';
-// import SurveyResults from './app/development/trc/SurveyResults';
-import PermitVolume from './app/development/volume/PermitVolume';
-import PermitsIndex from './app/development/permits/PermitsIndex';
-import Permit from './app/development/permits/Permit';
-import PermitSearchIndex from './app/development/permits/PermitSearchIndex';
-// import WorkflowContainer from './app/development/workflows/WorkflowContainer';
-//
-import ProjectFlowDashboard from './app/internal/bpt_projects/ProjectFlow';
-import CrimeSummary from './app/crime/CrimeSummary';
-import Maintenance from './app/maintenance/Maintenance';
+// import MySimpliCity from './app/MySimpliCity';
+// import Search from './app/search/Search';
+// // Locations
+// import Locations from './app/Locations';
+// import Address from './app/address/Address';
+// import AddressList from './app/address/AddressList';
+// import Property from './app/property/Property';
+// import Properties from './app/property/Properties';
+// import Street from './app/street/Street';
+// import Neighborhood from './app/neighborhood/Neighborhood';
+// import Owner from './app/owner/Owner';
+// import GooglePlaceResults from './app/search/searchResults/GooglePlaceResults';
+// // Topics
+// import Topics from './app/Topics';
+// // Development endpoints
+// import DevelopmentSummary from './app/development/DevelopmentSummary';
+// import DevelopmentDetail from './app/development/DevelopmentDetail';
+// import DevelopmentSLADashboard from './app/development/sla_dashboard/SLADashboard';
+// import DevelopmentDashIndex from './app/development/DevelopmentDashIndex';
+// // import TrcTimeline from './app/development/trc/TrcTimeline';
+// import MajorDevelopmentDashboard from './app/development/trc/MajorDevelopmentDashboard';
+// // import SurveyResults from './app/development/trc/SurveyResults';
+// import PermitVolume from './app/development/volume/PermitVolume';
+// import PermitsIndex from './app/development/permits/PermitsIndex';
+// import Permit from './app/development/permits/Permit';
+// import PermitSearchIndex from './app/development/permits/PermitSearchIndex';
+// // import WorkflowContainer from './app/development/workflows/WorkflowContainer';
+// //
+// import ProjectFlowDashboard from './app/internal/bpt_projects/ProjectFlow';
+// import CrimeSummary from './app/crime/CrimeSummary';
+// import Maintenance from './app/maintenance/Maintenance';
 // Budget
 import BudgetSummary from './app/budget/BudgetSummary';
 import BudgetDetailsContainer from './app/budget/BudgetDetailsContainer';
@@ -47,25 +47,25 @@ import SummaryUse from './app/budget/SummaryUse';
 import SummaryCashFlow from './app/budget/SummaryCashFlow';
 import BudgetData from './app/budget/BudgetData';
 // Capital Projects
-import CapitalProjectsSummary from './app/capital_projects/CapitalProjectsSummary';
-import CategoryDetails from './app/capital_projects/CategoryDetails';
-import CIPData from './app/capital_projects/CIPData';
-// Homelessness
-import HomelessnessSummary from './app/homelessness/HomelessnessSummary';
-import HomelessnessCounts from './app/homelessness/HomelessnessCounts';
-import HomelessnessDemographics from './app/homelessness/HomelessnessDemographics';
-import HomelessnessVeterans from './app/homelessness/HomelessnessVeterans';
-import HomelessnessVeteransInflowOutflow from './app/homelessness/HomelessnessVeteransInflowOutflow';
-import HomelessnessVeteransEnrollment from './app/homelessness/HomelessnessVeteransEnrollment';
-import HomelessnessVeteransChronicAssignments from './app/homelessness/HomelessnessVeteransChronicAssignments';
-import HomelessnessVeteransExitTime from './app/homelessness/HomelessnessVeteransExitTime';
-import HomelessnessEnrollment from './app/homelessness/HomelessnessEnrollment';
-import HomelessnessData from './app/homelessness/HomelessnessData';
-// MiniSearch
-import MiniSearch from './app/mini_search/MiniSearch';
-// Finance
-import PCardCompliance from './app/internal/pcard_compliance/PCardCompliance';
-import PCardComplianceReceipts from './app/internal/pcard_compliance/PCardComplianceReceipts';
+// import CapitalProjectsSummary from './app/capital_projects/CapitalProjectsSummary';
+// import CategoryDetails from './app/capital_projects/CategoryDetails';
+// import CIPData from './app/capital_projects/CIPData';
+// // Homelessness
+// import HomelessnessSummary from './app/homelessness/HomelessnessSummary';
+// import HomelessnessCounts from './app/homelessness/HomelessnessCounts';
+// import HomelessnessDemographics from './app/homelessness/HomelessnessDemographics';
+// import HomelessnessVeterans from './app/homelessness/HomelessnessVeterans';
+// import HomelessnessVeteransInflowOutflow from './app/homelessness/HomelessnessVeteransInflowOutflow';
+// import HomelessnessVeteransEnrollment from './app/homelessness/HomelessnessVeteransEnrollment';
+// import HomelessnessVeteransChronicAssignments from './app/homelessness/HomelessnessVeteransChronicAssignments';
+// import HomelessnessVeteransExitTime from './app/homelessness/HomelessnessVeteransExitTime';
+// import HomelessnessEnrollment from './app/homelessness/HomelessnessEnrollment';
+// import HomelessnessData from './app/homelessness/HomelessnessData';
+// // MiniSearch
+// import MiniSearch from './app/mini_search/MiniSearch';
+// // Finance
+// import PCardCompliance from './app/internal/pcard_compliance/PCardCompliance';
+// import PCardComplianceReceipts from './app/internal/pcard_compliance/PCardComplianceReceipts';
 // General
 import NotFound from './shared/NotFound';
 
@@ -89,8 +89,8 @@ const Routes = () => (
   <ApolloProvider client={client} >
     <Router history={browserHistory} onUpdate={logPageView === null ? null : () => logPageView()}>
       <Route path="/" component={App}>
-        <IndexRoute component={Home} />
-        <Route path="search">
+        <IndexRoute component={BudgetSummary} />
+        {/* <Route path="search">
           <IndexRoute component={Search} />
           <Route path="googlePlaceMatches" component={GooglePlaceResults}></Route>
         </Route>
@@ -106,18 +106,20 @@ const Routes = () => (
         </Route>
         <Route path="street" component={Street}></Route>
         <Route path="neighborhood" component={Neighborhood}></Route>
-        <Route path="owner" component={Owner}></Route>
+         <Route path="owner" component={Owner}></Route>
         <Route path="dashboards" component={Topics} />
+        */}
         <Route path="budget">
-           <IndexRoute component={BudgetSummary} />
-           <Route path="details" component={BudgetDetailsContainer}></Route>
-           <Route path="summaryUse" component={SummaryUse}></Route>
-           <Route path="summaryDepartments" component={SummaryDepartments}></Route>
-           <Route path="summaryCashFlow" component={SummaryCashFlow}></Route>
-           <Route path="detailsTreemap" component={BudgetDetailsContainer}></Route>
-           <Route path="detailsTable" component={BudgetDetailsContainer}></Route>
-           <Route path="data" component={BudgetData}></Route>
-         </Route>
+          <IndexRoute component={BudgetSummary} />
+          <Route path="details" component={BudgetDetailsContainer}></Route>
+          <Route path="summaryUse" component={SummaryUse}></Route>
+          <Route path="summaryDepartments" component={SummaryDepartments}></Route>
+          <Route path="summaryCashFlow" component={SummaryCashFlow}></Route>
+          <Route path="detailsTreemap" component={BudgetDetailsContainer}></Route>
+          <Route path="detailsTable" component={BudgetDetailsContainer}></Route>
+          <Route path="data" component={BudgetData}></Route>
+        </Route>
+        {/*
         <Route path="capital_projects">
           <IndexRoute component={CapitalProjectsSummary} />
           <Route path="details" component={CategoryDetails}></Route>
@@ -138,10 +140,11 @@ const Routes = () => (
           <Route exact path="/permits/search" component={PermitSearchIndex}></Route>
           <Route path="/permits/:id" component={Permit}></Route>
         </Route>
+        */}
+        {/*
         <Route path="development">
           <IndexRoute component={DevelopmentSummary} />
           <Route path="detail" component={DevelopmentDetail}></Route>
-          {/* The rest of these are dashboards */}
           <Route path="dashboards" component={DevelopmentDashIndex}></Route>
           <Route path="data" component={DevelopmentDashIndex}></Route>
           <Route path="sla-dashboard" component={DevelopmentSLADashboard}></Route>
@@ -149,7 +152,8 @@ const Routes = () => (
           <Route path="granular_volume" component={PermitVolume}></Route>
           <Route path="status_volume" component={PermitVolume}></Route>
         </Route>
-        <Route path="homelessness">
+        */}
+        {/* <Route path="homelessness">
           <IndexRoute component={HomelessnessSummary} />
           <Route path="veterans" component={HomelessnessVeterans}></Route>
           <Route path="data" component={HomelessnessData}></Route>
@@ -167,6 +171,7 @@ const Routes = () => (
         <Route path="mini_search">
           <IndexRoute component={MiniSearch} />
         </Route>
+        */}
         <Route path="*" component={NotFound} />
       </Route>
     </Router>

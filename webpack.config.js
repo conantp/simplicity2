@@ -16,8 +16,7 @@ module.exports = {
       'babel-polyfill',
       path.join(__dirname, 'src', 'index.js'),
       path.join(__dirname, 'public', 'manifest.json'),
-      path.join(__dirname, 'public', 'favicon.ico'),
-      path.join(__dirname, 'public', '_redirects'),
+      path.join(__dirname, 'public', 'favicon.ico')
     ],
   },
   output: {

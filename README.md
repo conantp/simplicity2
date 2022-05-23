@@ -1,6 +1,8 @@
 [![Stories in Ready](https://badge.waffle.io/cityofasheville/simplicity2.png?label=ready&title=Ready)](https://waffle.io/cityofasheville/simplicity2)
 # SimpliCity II
 
+## NOTE: This is a customzied version of Simplicity II
+
 ## Getting started
 
 You'll need Node and Yarn installed, then run the following commands to download the repository, install dependencies, and launch a dev server:
